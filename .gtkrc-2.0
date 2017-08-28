@@ -2,10 +2,10 @@
 # Any customization should be done in ~/.gtkrc-2.0.mine instead.
 
 include "/home/bsod37/.gtkrc-2.0.mine"
-gtk-theme-name="Vertex-Maia-Dark"
-gtk-icon-theme-name="Vibrancy-Colors-Full-Dark"
-gtk-font-name="Roboto 10"
-gtk-cursor-theme-name="Breeze"
+gtk-theme-name="Arc-Grey-Dark"
+gtk-icon-theme-name="Papirus-Dark"
+gtk-font-name="Source Sans Pro 11"
+gtk-cursor-theme-name="Adwaita"
 gtk-cursor-theme-size=0
 gtk-toolbar-style=GTK_TOOLBAR_BOTH
 gtk-toolbar-icon-size=GTK_ICON_SIZE_LARGE_TOOLBAR
@@ -15,5 +15,5 @@ gtk-enable-event-sounds=1
 gtk-enable-input-feedback-sounds=1
 gtk-xft-antialias=1
 gtk-xft-hinting=1
-gtk-xft-hintstyle="hintslight"
+gtk-xft-hintstyle="hintfull"
 gtk-xft-rgba="rgb"

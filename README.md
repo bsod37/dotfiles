@@ -1,24 +1,28 @@
 # Dotfiles
 
 ## Description
-This is my dotfiles from laptop with Manjaro i3.
+Dotfiles. Arch i3.
 
 ## Screenshot
-![Manjaro i3](screenshot.png)
+![Arch i3](screenshot.png)
 
 ## Dependencies
 To run all this configuration files you need the following:
 * i3-gaps
 * i3blocks
+* i3lock-color-git
 * compton
-* urxvt
+* termite
 * dmenu
 * dunst
-* nitrogen
+* feh
 * mocp
-* Vertex-Maia-Dark
-* Vibrancy-Colors-Full-Dark
+* mpv
 
 Fonts:
-* Roboto
-* Terminus
+* Source Sans Pro
+* Font Awesome
+
+Other:
+* GTK2/3: Arc-Grey-Dark
+* Icons: Papirus-Dark
