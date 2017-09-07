@@ -236,7 +236,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id volumeicon
 
 # Start Applications
-bindsym $mod+F2 exec chromium
+bindsym $mod+F2 exec chromium --disable-gpu-driver-bug-workarounds --enable-native-gpu-memory-buffers
 bindsym $mod+F3 exec subl3
 bindsym $mod+F4 exec pcmanfm
 #bindsym $mod+Shift+F4 exec gksu pcmanfm
@@ -248,6 +248,7 @@ bindsym --release $mod+Print exec scrot -s
 
 # Open applications on specific workspaces
 #for_window [class="Spotify"] move to workspace $tag5
+for_window [class="libreoffice"] move to workspace $ws5
 assign [class="Opera"] $ws2
 assign [class="Chromium"] $ws2
 assign [class="Subl3"] $ws3
