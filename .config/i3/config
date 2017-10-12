@@ -79,7 +79,7 @@ bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
-bindsym $mod+Shift+space floating toggle
+bindsym $mod+Shift+Return floating toggle
 
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
@@ -95,14 +95,14 @@ bindsym $mod+Ctrl+Right workspace next
 bindsym $mod+Ctrl+Left workspace prev
 
 # Workspace names
-set $ws1  Terminal
-set $ws2  Browser
-set $ws3  Code
-set $ws4  Files
-set $ws5  Documents
-set $ws6  Chat
-set $ws7  Media
-set $ws8  Other
+set $ws1 1  
+set $ws2 2  
+set $ws3 3  
+set $ws4 4  
+set $ws5 5  
+set $ws6 6  
+set $ws7 7  
+set $ws8 8  
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
