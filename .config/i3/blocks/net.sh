@@ -17,7 +17,11 @@ E_ip=$(ifconfig $E_inter | grep 'netmask' | awk '{print $6}')
 Wifi () {
 if [ "$W_con" = "connected" ];then 
     echo -e " $W_name($W_quality%)"
-fi 
+fi
+
+if [ "$W_con" = "disconnected" ];then 
+    echo -e " Off"
+fi  
 }
 
 Ethernet () {
