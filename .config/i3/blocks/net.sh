@@ -21,7 +21,11 @@ fi
 
 if [ "$W_con" = "disconnected" ];then 
     echo -e " Off"
-fi  
+fi
+
+if [ "$W_con" = "connecting" ];then 
+    echo -e " Connecting"
+fi    
 }
 
 Ethernet () {
