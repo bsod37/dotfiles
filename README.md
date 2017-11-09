@@ -22,6 +22,7 @@ To run all this configuration files you need the following:
 Fonts:
 * Source Sans Pro
 * Font Awesome
+* Iosevka
 
 Other:
 * GTK2/3: Arc-Grey-Dark
