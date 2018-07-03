@@ -4,7 +4,9 @@
 Dotfiles. Arch i3.
 
 ## Screenshot
-![Arch i3](screenshot.png)
+| Clean workspace | Lockscreen |
+| --- | --- |
+| ![Arch i3](screenshot.png) | ![Arch i3](screenshot.png) |
 
 ## Dependencies
 To run all this configuration files you need the following:
@@ -16,13 +18,11 @@ To run all this configuration files you need the following:
 * dmenu
 * dunst
 * feh
-* mocp
-* mpv
 
 Fonts:
 * Source Sans Pro
 * Font Awesome
-* Iosevka
+* Input
 
 Other:
 * GTK2/3: Arc-Grey-Dark
