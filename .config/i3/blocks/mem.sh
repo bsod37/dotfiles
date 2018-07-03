@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-Mem=$(free -h | grep "^Mem:" | awk '{print $3}')
+Mem=$(free -h --si | grep "^Mem:" | awk '{print $3}')
 Swap=$(free -h | grep "^Swap:" | awk '{print $3}')
 
 if [ -z "$1" ];then 
