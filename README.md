@@ -6,7 +6,7 @@ Dotfiles. Arch i3.
 ## Screenshot
 | Clean workspace | Lockscreen |
 | --- | --- |
-| ![Arch i3](screenshot.png) | ![Arch i3](screenshot.png) |
+| ![Arch i3](screenshot.png) | ![Arch i3](lockscreen.png) |
 
 ## Dependencies
 To run all this configuration files you need the following:
