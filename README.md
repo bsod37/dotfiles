@@ -1,18 +1,14 @@
 # Dotfiles
 
-## Description
-Dotfiles. Arch i3.
-
 ## Screenshot
-| Clean workspace | Lockscreen |
+| Clean workspace | "Busy" workspace |
 | --- | --- |
-| ![Arch i3](screenshot.png) | ![Arch i3](lockscreen.png) |
+| ![i3](clean.png) | ![i3](fake_busy.png) |
 
 ## Dependencies
-To run all this configuration files you need the following:
 * i3-gaps
 * i3blocks
-* i3lock-color-git
+* betterlockscreen
 * compton
 * termite
 * dmenu
