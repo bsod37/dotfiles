@@ -23,7 +23,7 @@ elif [ "$Bat" -gt "100" ];then
      bat="$icon4 Full"
 elif [ "$Bat" -gt "90" ];then 
      bat="$icon3 $Bat %"
-elif [ "$Bat" -gt "60" ];then 
+elif [ "$Bat" -gt "50" ];then 
      bat="$icon2 $Bat %"
 elif [ "$Bat" -gt "30" ];then 
      bat="$icon1 $Bat %"
