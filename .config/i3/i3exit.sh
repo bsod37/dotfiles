@@ -1,6 +1,6 @@
 #!/bin/sh
 lock() {
-    ~/.config/i3/lock/lock
+    betterlockscreen -l dimblur
 }
 
 case "$1" in
