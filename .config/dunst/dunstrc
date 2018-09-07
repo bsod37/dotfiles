@@ -142,10 +142,13 @@
     dmenu = /usr/bin/dmenu -p dunst:
     
     # Browser for opening urls in context menu.
-    browser = google-chrome-stable
+    browser = firefox
 
     # Align icons left/right/off
     icon_position = left
+
+    # Scale larger icons down to this size, set to 0 to disable
+    max_icon_size = 100
 
     # Paths to default icons.
     icon_folders = /usr/share/icons/Adwaita/16x16/status/:/usr/share/icons/Adwaita/16x16/devices/
